@@ -1,6 +1,6 @@
 {
   "name": "theme-switch",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easily manage and switch themes",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,6 @@
   "author": "Eitan Prince",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-render-html": "^0.6.0"
