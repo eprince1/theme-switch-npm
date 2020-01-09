@@ -1,0 +1,17 @@
+{
+  "name": "theme-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eitan Prince",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-render-html": "^0.6.0"
+  }
+}
