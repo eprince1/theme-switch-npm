@@ -1,4 +1,4 @@
-import axios from 'axios'; 
+const axios = require('axios'); 
 
 // const url = "http://localhost:5000/theme-switch/us-central1/api";
 const url = "https://us-central1-theme-switch.cloudfunctions.net/api";
@@ -45,4 +45,8 @@ async function loadPalette(paletteId) {
     localStorage.setItem('theme-switch-loaded-palette-id', paletteId);
 }
 
-export { initialize, loadPalette, uninitialize };
+module.exports = {
+    initialize,
+    uninitialize,
+    loadPalette
+};
