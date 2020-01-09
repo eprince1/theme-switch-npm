@@ -1,6 +1,6 @@
 {
   "name": "theme-switch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easily manage and switch themes",
   "main": "index.js",
   "scripts": {

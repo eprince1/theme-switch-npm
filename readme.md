@@ -42,7 +42,7 @@ Theme Switch will change your css classes and values on the fly through our api.
 
 ## Example with classes
 
-![](./images/theme-example.png)
+![Theme Example](./images/theme-example.png?raw=true)
 
 This is an example of a simple dark theme. Notice how there are 2 colors, each with a class name and a type (Background Color/Text Color)
 
