@@ -4,6 +4,9 @@
 ## Installation
 `yarn add theme-switch`
 
+#### CDN
+`<script src="https://cdn.jsdelivr.net/npm/theme-switch/dist/module.js"></script>`
+
 ## Setup
 - Go to [Theme Switch](https://themes.mergefly.com "Theme Switch") website and create your themes
 - Setup your themes, class names, colors, and types
@@ -39,6 +42,10 @@ Theme Switch will change your css classes and values on the fly through our api.
 `loadPalette(themeId)` - This will load the theme based on the given themeId. Note this will change your css based on the class names given for the theme.
 
 `uninitialize()` - This will remove all css changes from Theme Switch.
+
+#### CDN
+When using CDN to import Theme Switch, use `window.ThemeSwitch.initialize()`.
+(Same syntax for other functions)
 
 ## Example with classes
 
