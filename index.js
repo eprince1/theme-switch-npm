@@ -1,4 +1,4 @@
-import axios from './axios'; 
+import axios from 'axios'; 
 
 // const url = "http://localhost:5000/theme-switch/us-central1/api";
 const url = "https://us-central1-theme-switch.cloudfunctions.net/api";
