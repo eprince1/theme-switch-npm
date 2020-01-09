@@ -5,7 +5,7 @@
 `yarn add theme-switch`
 
 ## Setup
-- Go to [Theme Switch](https://theme-switch.web.app/ "Theme Switch") website and create up to 2 themes for free
+- Go to [Theme Switch](https://theme-switch.web.app/ "Theme Switch") website and create your themes
 - Setup your themes, class names, colors, and types
 - You are all set to go!
 
