@@ -185,7 +185,7 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 },{}],2:[function(require,module,exports){
-const axios = require('axios'); 
+const axios = require('axios');
 
 // const url = "http://localhost:5000/theme-switch/us-central1/api";
 const url = "https://us-central1-theme-switch.cloudfunctions.net/api";
@@ -222,11 +222,20 @@ async function loadPalette(paletteId) {
     style.innerHTML = '';
 
     palette["palette"].forEach(k => {
-        style.innerHTML += `
+        if (k['hover']) {
+            style.innerHTML += `
+                .${k['name']}:hover {
+                    ${k['type']}: ${k['hex']}
+                }
+            `;
+        } else {
+            style.innerHTML += `
                 .${k['name']} {
                     ${k['type']}: ${k['hex']}
                 }
             `;
+        }
+
     });
 
     localStorage.setItem('theme-switch-loaded-palette-id', paletteId);
